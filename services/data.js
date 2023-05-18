@@ -3,26 +3,30 @@ const data = {
       {
         id: 1,
         task: 'task1',
-        name: 'assignee1000',
-        status: 'Relevant'
+        assignee: 'assignee1000',
+        status: 'Relevant',
+        name: 'test1'
       },
       {
         id: 2,
         task: 'task2',
-        name: 'assignee1001',
-        status: ''
+        assignee: 'assignee1001',
+        status: 'Not Relevant',
+        name: 'test2'
       },
       {
         id: 3,
         task: 'task3',
-        name: 'assignee1002',
-        status: 'Not Relevant'
+        assignee: 'assignee1002',
+        status: '',
+        name: 'test3'
       },
       {
         id: 4,
         task: 'task4',
-        name: 'assignee1000',
-        status: 'Relevant'
+        assignee: 'assignee1000',
+        status: '',
+        name: 'test4'
       },
       
     ]
